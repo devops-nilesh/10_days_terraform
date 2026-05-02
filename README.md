@@ -20,5 +20,3 @@ Each day introduces new concepts, paired with a practical project and direct doc
 | **Day 8: Provisioners** | Local‑exec, remote‑exec, error handling | Deploy EC2 and use **remote‑exec to bootstrap Docker + Nginx**, then verify with local‑exec curl tests. | [Provisioners](https://developer.hashicorp.com/terraform/language/resources/provisioners) |
 | **Day 9: Workspaces** | Creating workspaces, switching, managing environments | Set up **dev, staging, prod workspaces** with different variable sets and backend configs. | [Workspaces](https://developer.hashicorp.com/terraform/language/state/workspaces) |
 | **Day 10: Security, Sensitive Data & Stacks** | Sensitive variables, avoiding secrets in code, Vault integration, stacks for layered deployments | Build a **multi‑stack setup**: network stack, compute stack, app stack, all secured with Vault secrets. | [Sensitive Data](https://developer.hashicorp.com/terraform/language/state/sensitive-data) / [Stacks](https://developer.hashicorp.com/terraform/cloud-docs/workspaces/stack) |
-   ```bash
-   terraform init
