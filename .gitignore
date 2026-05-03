@@ -24,3 +24,6 @@
 # Ignore CLI config files
 .terraformrc
 terraform.rc
+
+# Lock file
+**/.terraform.lock.hcl
